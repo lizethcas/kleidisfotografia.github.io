@@ -1,0 +1,161 @@
+$color-oro: rgb(191, 121, 7)
+$color-blanco: #fff
+$color-negro: #000
+
+.main
+    padding: 10px 0
+    text-align: center
+    color: $color-oro
+    .titulo-galeria
+        font-size: 2em
+        padding: 10px 0
+
+    .titulo
+
+        text-align: right
+        color: $color-oro
+        font-size: 1.5em
+        font-weight: 700
+    .logo
+
+        width: 50px
+        float: right
+
+    .contenedor-menu
+
+        text-align: right
+        padding: 10px
+        position: fixed
+        top: 0
+        right: 0
+        width: 100%
+        background: $color-negro
+
+        .menu
+
+            font-size: 0.88em
+
+            a
+                margin: 2px
+                text-decoration: none
+                color: $color-blanco
+                &:hover
+                    color: $color-oro
+                    filter: drop-shadow(0px 0 5px rgb(191,121, 7))
+    .contenedor-galeria
+        max-width: 1000px
+        width: 100%
+        margin: 0 auto
+        overflow: hidden
+
+        .titulo-categoria
+            padding: 15px 10px
+            background: #ffffff46
+            padding: 10px 50px
+            text-align: left
+
+        .titulo-categoria-sinfondo
+            margin: 20px auto
+            padding: 10px 70px
+            text-align: left
+        .titulo-categoria-sinfondo,
+        .titulo-categoria
+            font-size: 2em
+            &::after
+                content: ""
+                width: 95.5%
+                height: 3px
+                background: $color-oro
+                display: block
+
+        .contenedor-social
+            background: #ffffff46
+            display: grid
+            grid-template-columns: repeat(auto-fit, minmax(300,1fr))
+            gap: 15px
+            padding: 0px 50px 50px 50px
+            justify-content: center
+            grid-auto-flow: dense
+
+            .galeria-item
+                grid-auto-flow: dense
+
+                .img
+                    width: 90%
+                    height: 100%
+                    object-fit: cover
+                    border-radius: 5px
+
+        .contenedor-retrato
+            ddisplay: grid
+            grid-template-columns: repeat(auto-fit, minmax(500px,1fr))
+            padding: 0px 80px 80px 80px
+            grid-auto-flow: dense
+            gap: 10px
+            .galeria-item
+                grid-auto-flow: dense
+                .img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    border-radius: 5px
+
+        .contenedor-animales
+            background: #ffffff46
+            display: grid
+            grid-template-columns: repeat(auto-fit, minmax(280px,1fr))
+            padding: 0px 80px 80px 80px
+            justify-content: center
+            grid-auto-flow: dense
+            gap: 10px
+
+            .galeria-item
+                .img
+                    width: 100%
+                    border-radius: 5px
+
+        .contenedor-paisajes
+            display: grid
+            grid-template-columns: repeat(auto-fit, minmax(500px,1fr))
+            padding: 0px 80px 80px 80px
+            grid-auto-flow: dense
+            gap: 10px
+            .galeria-item
+                grid-auto-flow: dense
+                .img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    border-radius: 5px
+
+        .contenedor-producto
+            background: #ffffff46
+            display: grid
+            grid-template-columns: repeat(auto-fit, minmax(280px,1fr))
+            padding: 0px 80px 80px 80px
+            justify-content: center
+            gap: 10px
+
+            .galeria-item
+                grid-auto-flow: dense
+                .img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    border-radius: 5px
+
+        .contenedor-social,
+        .contenedor-retrato,
+        .contenedor-animales,
+        .contenedor-paisajes,
+        .contenedor-producto
+            .galeria-item
+                .img
+                    box-shadow: 15px 15px 20px #18171793
+    .video
+        margin: auto
+        width: 83.3%
+        .video-fotos
+            text-align: center
+            width: 100%
+            box-shadow: 25px 25px 20px #181717b9
