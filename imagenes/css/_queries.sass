@@ -1,0 +1,115 @@
+@media screen and (max-width: 950px)
+    header
+        .presentacion
+            margin-right: 20px
+
+            .nombre,
+            .profesion
+                width: 100%
+            .nombre
+                font-size: 4em
+
+            .profesion
+                font-size: 1em
+        .parrafo
+            font-size: 1em
+
+@media screen and (max-width: 850px)
+    header
+        .presentacion
+
+            display: flex
+            flex-wrap: wrap
+            .kleidis
+                height: 300px
+                position: relative
+                bottom:-100px
+                float: none
+                justify-content: space-evenly
+                border-radius: 5px
+                margin: auto
+            .profesion,
+            .nombre
+
+                width: 100%
+                text-align: center
+                position: relative
+                top: -330px
+        .parrafo
+
+            text-align: center
+            
+            font-size: 1em
+            width: 100%
+
+            margin-top: 0 auto
+            padding: 20px 20px 20px 0
+
+    .main
+
+        .titulo,
+        .menu
+            text-align: center
+
+@media screen and (max-width: 650px)
+
+    .main
+        .contenedor-galeria
+            .contenedor-paisajes
+                grid-template-columns: repeat(auto-fit, minmax(300px,1fr))
+
+@media screen and (max-width: 550px)
+
+    .main
+        .titulo-galeria
+            font-size: 16px
+            margin-top: -80px
+        .contenedor-menu
+
+            .titulo
+                margin: 10px 0 0 0
+                font-size: 14px
+            .menu
+                font-size: 14px
+        .contenedor-galeria
+            .titulo-categoria,
+            .titulo-categoria-sinfondo
+                font-size: 1em
+            .contenedor-paisajes
+                grid-template-columns: repeat(auto-fit, minmax(200px,1fr))
+
+    header
+       
+        .presentacion
+
+            .kleidis
+                margin: auto
+                height: 250px
+                top: 100px
+            .nombre
+                font-size: 3em
+
+            .profesion,
+            .nombre
+
+                top: -280px
+        .parrafo
+            text-align: center
+            margin: 0 auto
+            width: 100%
+           
+
+    footer
+        height: 150px
+        padding: 20px 0
+        .derechos
+            font-size: 0.7em
+
+    .fa-facebook:before ,
+    .fa-instagram:before ,
+    .fa-behance-square:before
+
+        font-size: 50px
+
+    body
+        font-size: 16px
