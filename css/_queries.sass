@@ -1,148 +1,113 @@
-
-@media screen and (max-width: 1111px)
+@media screen and (max-width: 950px)
     header
-        .contenedor
-            .contenedor-logo
-                margin-top: 180px
-                .texto
-                    justify-content: center
-                    height: 110px
-                    margin: 0px
-                    .titulo
-                        font-size: 2.9em
-                    .profesion
-                        font-size: 1.5em
-    .main
-        .proyectos
-            .contenedor
-                .contenedor-proyectos
-                    .proyecto
-                        .thumb
-                            img
-                                opacity: 100%
+        .presentacion
+            margin-right: 20px
 
-    
+            .nombre,
+            .profesion
+                width: 100%
+            .nombre
+                font-size: 4em
 
-@media screen and (max-width: 980px)
-    header
-        .contenedor
-            .contenedor-logo
-                margin-top: 180px
-                .texto
-                    justify-content: center
-                    width: 450px
-                    height: 110px
-                    margin: 0px
+            .profesion
+                font-size: 1em
+        .parrafo
+            font-size: 1em
 
 @media screen and (max-width: 850px)
-
-    body
-        font-size: 14px
-
     header
-        max-height: 350px
-        .contenedor
-            .menu
-                text-align: center
-            .contenedor-logo
-                flex-direction: column
-                margin-top: 60px
-                .texto
-                    margin-top: 60px
+        .presentacion
 
-                    order: 2
-                    .titulo
-                        color: #000
-                    .profesion
-                        font-weight: 600
-                        text-decoration: overline #F58225 0.5px
-                .foto
-                    .fotoliz
-                        img
-                            width: 250px
-                            height: 250px
+            display: flex
+            flex-wrap: wrap
+            .kleidis
+                height: 300px
+                position: relative
+                bottom: -100px
+                float: none
+                justify-content: space-evenly
+                border-radius: 5px
+                margin: auto
+            .profesion,
+            .nombre
+
+                width: 100%
+                text-align: center
+                position: relative
+                top: -330px
+        .parrafo
+
+            text-align: center
+
+            font-size: 1em
+            width: 100%
+
+            margin-top: 0 auto
+            padding: 20px 20px 20px 0
+
+@media screen and (max-width: 650px)
+
     .main
-        text-align: center
-        .acercade
-            .contenedor
-                .texto
-                    .titulo
-                        margin-top: 250px
-        .tecnologias 
-            .contenedor 
-                .contenedor-tecnologia
-                    justify-content: center 
-        .proyectos
-            .contenedor
-                .contenedor-proyectos
-                    .proyecto
-                        width: 46%
+        .contenedor-galeria
+            .contenedor-paisajes
+                grid-template-columns: repeat(auto-fit, minmax(300px,1fr))
 
 @media screen and (max-width: 550px)
-    body
-        font-size: 13px
-        margin-top: 100px
-    .fa-html5:before,
-    .fa-css3-alt:before,
-    .fa-js:before,
-    .fa-wordpress:before,
-    .fa-sass:before,
-    .fa-bootstrap:before
-        font-size: 90px
-    .main
-        .proyectos
-            .contenedor
-                .texto
-                    .texto
-                        .titulo
-                            margin-top: 300px
-        
-      
-        .contenedor-proyectos
-            .proyecto
-                .descripcion
-                    .nombre
-                        font-size: 0.6em
-    header
-        .contenedor
-            .contenedor-logo
-                margin-top: 100px
-    footer
-        .formulario
-            .boton
-                width: 50%
-                font-size: 30px
 
-@media screen and (max-width: 300px)
     .main
-        .proyectos
-            .contenedor
-                .contenedor-proyectos
-                    .proyecto
-                        width: 100%
-                    .descripcion
-                        .categoria
-                            font-size: 1.5em
-        .tecnologias
-            .contenedor
-                .contenedor-tecnologias
-                    justify-content: center
-                    .iconos
-                        .tipo
-                            font-size: 2em
-                            margin-bottom: 20px
-    body
         font-size: 14px
+        .titulo
+            text-align: center
 
-    .fa-html5:before,
-    .fa-css3-alt:before,
-    .fa-js:before,
-    .fa-wordpress:before,
-    .fa-sass:before,
-    .fa-bootstrap:before
-        font-size: 200px
+        .titulo-galeria
+            font-size: 16px
+            margin-top: -80px
+        .contenedor-menu
+            background: #000
+            text-align: center
+
+            .titulo
+                margin: 10px 0 0 0
+                
+
+            .menu
+
+        .contenedor-galeria
+            
+            .contenedor-paisajes
+                grid-template-columns: repeat(auto-fit, minmax(200px,1fr))
 
     header
-        .contenedor
-            .contenedor-logo
-                margin-top: 50px
+
+        .presentacion
+
+            .kleidis
+                margin: auto
+                height: 250px
+                top: 100px
+            .nombre
+                font-size: 3em
+
+            .profesion,
+            .nombre
+
+                top: -280px
+        .parrafo
+            text-align: center
+            margin: 0 auto
+            width: 100%
+
+    footer
+        height: 150px
+        padding: 20px 0
+        .derechos
+            font-size: 0.7em
+
+    .fa-facebook:before ,
+    .fa-instagram:before ,
+    .fa-behance-square:before
+
+        font-size: 50px
+
+    body
+        font-size: 16px
